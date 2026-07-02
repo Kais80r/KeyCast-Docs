@@ -1,0 +1,18 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="Sequence anatomy diagram">
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <text x="450" y="40" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" font-weight="700" fill="#111827">Sequence Anatomy</text>
+  <g font-family="Segoe UI, Arial" fill="#1f2937">
+    <rect x="70" y="82" width="760" height="70" rx="8" fill="#ffffff" stroke="#b7c7df"/>
+    <rect x="70" y="82" width="8" height="70" fill="#3f7fd8"/>
+    <text x="105" y="112" font-size="18" font-weight="700">Starting Values</text>
+    <text x="105" y="137" font-size="14">Named data like statusText, attempts, isActive, lastResult</text>
+    <rect x="70" y="182" width="760" height="95" rx="8" fill="#ffffff" stroke="#b7c7df"/>
+    <rect x="70" y="182" width="8" height="95" fill="#3f7fd8"/>
+    <text x="105" y="214" font-size="18" font-weight="700">Main Steps</text>
+    <text x="105" y="240" font-size="14">The normal path: wait, press keys, read text, click targets, branch, restart</text>
+    <rect x="70" y="307" width="760" height="75" rx="8" fill="#ffffff" stroke="#e0bf82"/>
+    <rect x="70" y="307" width="8" height="75" fill="#dc9535"/>
+    <text x="105" y="338" font-size="18" font-weight="700">Watchers</text>
+    <text x="105" y="363" font-size="14">Background reactions that can run alongside or take over with Pause Sequence</text>
+  </g>
+</svg>

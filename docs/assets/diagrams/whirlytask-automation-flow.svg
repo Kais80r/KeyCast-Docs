@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="WhirlyTask flow overview">
+  <rect width="1000" height="430" fill="#f7f9fc"/>
+  <text x="500" y="42" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" font-weight="700" fill="#1f2937">WhirlyTask Automation Flow</text>
+  <g font-family="Segoe UI, Arial" fill="#1f2937">
+    <rect x="50" y="95" width="180" height="92" rx="10" fill="#ffffff" stroke="#9bb8df" stroke-width="2"/>
+    <text x="140" y="130" text-anchor="middle" font-size="17" font-weight="700">Tracks</text>
+    <text x="140" y="156" text-anchor="middle" font-size="13">recorded input</text>
+    <text x="140" y="176" text-anchor="middle" font-size="13">short repeatable actions</text>
+
+    <rect x="292" y="95" width="190" height="92" rx="10" fill="#ffffff" stroke="#9bb8df" stroke-width="2"/>
+    <text x="387" y="130" text-anchor="middle" font-size="17" font-weight="700">Advanced Tracks</text>
+    <text x="387" y="156" text-anchor="middle" font-size="13">editable action blocks</text>
+    <text x="387" y="176" text-anchor="middle" font-size="13">reusable step lists</text>
+
+    <rect x="510" y="82" width="260" height="118" rx="10" fill="#ffffff" stroke="#84c79b" stroke-width="2"/>
+    <text x="640" y="120" text-anchor="middle" font-size="17" font-weight="700">Sequences</text>
+    <text x="640" y="146" text-anchor="middle" font-size="13">steps, values, logic</text>
+    <text x="640" y="166" text-anchor="middle" font-size="13">read text, click, branch</text>
+    <text x="640" y="186" text-anchor="middle" font-size="13">can run tracks and advanced tracks</text>
+
+    <rect x="820" y="95" width="160" height="92" rx="10" fill="#ffffff" stroke="#e3b66c" stroke-width="2"/>
+    <text x="900" y="130" text-anchor="middle" font-size="17" font-weight="700">Watchers</text>
+    <text x="900" y="156" text-anchor="middle" font-size="13">background checks</text>
+    <text x="900" y="176" text-anchor="middle" font-size="13">recover or alert</text>
+
+    <path d="M230 141 H292" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M482 141 H510" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M770 141 H820" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="90" y="258" width="820" height="64" rx="10" fill="#ffffff" stroke="#c9d3df"/>
+    <text x="500" y="286" text-anchor="middle" font-size="16" font-weight="700">Smart Playback Helpers</text>
+    <text x="500" y="309" text-anchor="middle" font-size="14">Screen text reading, image matching, protections, Discord alerts, hotkeys, recording, loop, library</text>
+
+    <rect x="190" y="350" width="620" height="50" rx="10" fill="#ffffff" stroke="#c9d3df"/>
+    <text x="500" y="381" text-anchor="middle" font-size="15">Run, wait, read, click, branch, notify, recover, repeat, and stop safely</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

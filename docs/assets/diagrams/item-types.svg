@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-label="WhirlyTask item types diagram">
+  <rect width="1000" height="460" fill="#f8fafc"/>
+  <text x="500" y="42" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" font-weight="700" fill="#111827">What You Can Build In WhirlyTask</text>
+  <g font-family="Segoe UI, Arial" fill="#1f2937">
+    <rect x="70" y="88" width="250" height="130" rx="10" fill="#ffffff" stroke="#9bb8df" stroke-width="2"/>
+    <text x="195" y="124" text-anchor="middle" font-size="18" font-weight="700">Track</text>
+    <text x="195" y="153" text-anchor="middle" font-size="14">Recorded keyboard</text>
+    <text x="195" y="175" text-anchor="middle" font-size="14">and mouse input</text>
+    <text x="195" y="199" text-anchor="middle" font-size="13">Best for short stable actions</text>
+
+    <rect x="375" y="88" width="250" height="130" rx="10" fill="#ffffff" stroke="#9bb8df" stroke-width="2"/>
+    <text x="500" y="124" text-anchor="middle" font-size="18" font-weight="700">Advanced Track</text>
+    <text x="500" y="153" text-anchor="middle" font-size="14">Editable reusable</text>
+    <text x="500" y="175" text-anchor="middle" font-size="14">action block</text>
+    <text x="500" y="199" text-anchor="middle" font-size="13">Best for shared step lists</text>
+
+    <rect x="680" y="88" width="250" height="130" rx="10" fill="#ffffff" stroke="#84c79b" stroke-width="2"/>
+    <text x="805" y="124" text-anchor="middle" font-size="18" font-weight="700">Sequence</text>
+    <text x="805" y="153" text-anchor="middle" font-size="14">Full workflow with</text>
+    <text x="805" y="175" text-anchor="middle" font-size="14">values and logic</text>
+    <text x="805" y="199" text-anchor="middle" font-size="13">Best for decisions and recovery</text>
+
+    <path d="M320 153 H375" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M625 153 H680" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="130" y="275" width="740" height="92" rx="10" fill="#ffffff" stroke="#e3b66c" stroke-width="2"/>
+    <text x="500" y="310" text-anchor="middle" font-size="18" font-weight="700">App Features</text>
+    <text x="500" y="338" text-anchor="middle" font-size="14">Protection, Discord output, hotkeys, recording settings, loop playback, library, and help</text>
+    <text x="500" y="360" text-anchor="middle" font-size="13">These features support tracks, advanced tracks, and sequences from around the app.</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>
